@@ -2,7 +2,7 @@
   "name": "bill-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mozammil890.github.io/bill-dashboard-ui/?utm_source=chatgpt.com",
+  "homepage": "https://mozammil890.github.io/bill-dashboard-ui",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",

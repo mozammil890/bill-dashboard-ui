@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/bill-dashboard-ui/static/css/main.c0c91477.css",
-    "main.js": "/bill-dashboard-ui/static/js/main.bbef12ba.js",
+    "main.css": "/bill-dashboard-ui/static/css/main.3529d0b9.css",
+    "main.js": "/bill-dashboard-ui/static/js/main.996ef096.js",
     "static/js/453.e2c22a5d.chunk.js": "/bill-dashboard-ui/static/js/453.e2c22a5d.chunk.js",
+    "static/media/logo3.png": "/bill-dashboard-ui/static/media/logo3.846c8e81dd326b2d5c0d.png",
     "index.html": "/bill-dashboard-ui/index.html",
-    "main.c0c91477.css.map": "/bill-dashboard-ui/static/css/main.c0c91477.css.map",
-    "main.bbef12ba.js.map": "/bill-dashboard-ui/static/js/main.bbef12ba.js.map",
+    "main.3529d0b9.css.map": "/bill-dashboard-ui/static/css/main.3529d0b9.css.map",
+    "main.996ef096.js.map": "/bill-dashboard-ui/static/js/main.996ef096.js.map",
     "453.e2c22a5d.chunk.js.map": "/bill-dashboard-ui/static/js/453.e2c22a5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0c91477.css",
-    "static/js/main.bbef12ba.js"
+    "static/css/main.3529d0b9.css",
+    "static/js/main.996ef096.js"
   ]
 }

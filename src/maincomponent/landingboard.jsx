@@ -1,5 +1,6 @@
 import React from "react";
 import AppBar from '@mui/material/AppBar';
+import { Button, Box } from "@mui/material";
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import './landingboard.css';
@@ -9,6 +10,8 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Grid';
+import image3 from '../images/logo3.png';
+import Footer from "../footer/footer";
 
 const  LandingDashboard = () =>{
 
@@ -34,32 +37,53 @@ return(<>
           <Typography variant="h6" component="div"  className="app_bar_text">
             Dippy
           </Typography>
+          <Box sx={{ flexGrow: 1 }} />
+          <Button color="inherit" variant="outlined">Login</Button>
         </Toolbar>
       </AppBar>
-    <Grid  spacing={1} padding={1}  className="main_grid">
-    <Grid item xs={12} sm={6} md={6} lg={4} xl={12} className="child_grid" >
-          <Card className="box_catlog" onClick={handleClick}>
+<Grid container  spacing={2} padding={6}
+      justifyContent="center" className="main_grid">
+  <Grid item xs={12} sm={12} md={6} lg={6} xl={6}  marginTop={2}>
+  <div>
+  <Card  onClick={handleClick}>
             <CardContent>
               <div className="inside_card"><h2 className="app_bar_text">Enter Today's Sale</h2> </div>
             </CardContent>
           </Card>
-        </Grid>
-
-        <Grid item xs={12} sm={6} md={6} lg={4} xl={12} className="child_grid">
-          <Card className="box_catlog">
+  </div>
+  </Grid>
+  <Grid item xs={12} sm={12} md={6} lg={6} xl={6} marginTop={2} >
+  <div>
+  <Card >
             <CardContent>
             <div className="inside_card"><h2 className="app_bar_text">Sale's  DashBoard</h2> </div>
             </CardContent>
           </Card>
-        </Grid>
-        <Grid item xs={12} sm={6} md={6} lg={4} xl={12} className="child_grid">
-          <Card className="box_catlog">
+  </div>
+  </Grid>
+  {/* <Grid item xs={12} sm={12} md={4} lg={4} xl={4} marginTop={2} >
+  <div>
+  <Card >
             <CardContent>
-            <div className="inside_card"><h2 className="app_bar_text">To be Decided</h2> </div>
+            <div className="inside_card"><h2 className="app_bar_text">Sale's  DashBoard</h2> </div>
             </CardContent>
           </Card>
-        </Grid>
-      </Grid>
+  </div>
+  </Grid> */}
+</Grid>
+<Grid container justifyContent="center">
+  <Grid  item xs={12} sm={12} md={12} lg={12} xl={12} >
+    <Card >
+            <CardContent>
+            <div className="inside_card_1" >
+            <img src={image3} alt="Logo" className="logo_img" />
+            </div>
+            </CardContent>
+          </Card>
+  </Grid>
+</Grid>
+<br/>
+<Footer/>
       </>);
 
 }

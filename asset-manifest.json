@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bill-dashboard-ui/static/css/main.c0c91477.css",
-    "main.js": "/bill-dashboard-ui/static/js/main.e5baf8be.js",
+    "main.js": "/bill-dashboard-ui/static/js/main.bbef12ba.js",
     "static/js/453.e2c22a5d.chunk.js": "/bill-dashboard-ui/static/js/453.e2c22a5d.chunk.js",
     "index.html": "/bill-dashboard-ui/index.html",
     "main.c0c91477.css.map": "/bill-dashboard-ui/static/css/main.c0c91477.css.map",
-    "main.e5baf8be.js.map": "/bill-dashboard-ui/static/js/main.e5baf8be.js.map",
+    "main.bbef12ba.js.map": "/bill-dashboard-ui/static/js/main.bbef12ba.js.map",
     "453.e2c22a5d.chunk.js.map": "/bill-dashboard-ui/static/js/453.e2c22a5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0c91477.css",
-    "static/js/main.e5baf8be.js"
+    "static/js/main.bbef12ba.js"
   ]
 }

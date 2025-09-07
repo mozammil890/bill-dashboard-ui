@@ -11,6 +11,7 @@ function App() {
     <Routes>
         <Route path="/" element={<LandingDashboard/>}/>
         <Route path="/sales-submit" element={<SalesForm/>} />
+        <Route path="/dash-board" element={<DashBoard/>} />
     </Routes>
     </HashRouter>
     </>

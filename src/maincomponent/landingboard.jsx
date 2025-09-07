@@ -21,6 +21,10 @@ const handleClick = () => {
   navigate('/sales-submit');
 }
 
+const handleClick2 = () => {
+  navigate('/dash-board');
+}
+
 
 const card = (
   <React.Fragment>
@@ -54,22 +58,13 @@ return(<>
   </Grid>
   <Grid item xs={12} sm={12} md={6} lg={6} xl={6} marginTop={2} >
   <div>
-  <Card >
+  <Card onClick={handleClick2} >
             <CardContent>
             <div className="inside_card"><h2 className="app_bar_text">Sale's  DashBoard</h2> </div>
             </CardContent>
           </Card>
   </div>
   </Grid>
-  {/* <Grid item xs={12} sm={12} md={4} lg={4} xl={4} marginTop={2} >
-  <div>
-  <Card >
-            <CardContent>
-            <div className="inside_card"><h2 className="app_bar_text">Sale's  DashBoard</h2> </div>
-            </CardContent>
-          </Card>
-  </div>
-  </Grid> */}
 </Grid>
 <Grid container justifyContent="center">
   <Grid  item xs={12} sm={12} md={12} lg={12} xl={12} >
